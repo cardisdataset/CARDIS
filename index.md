@@ -45,3 +45,5 @@ no historical handwritten Swedish lowercase letters dataset that provides more t
 1,00,000 image samples in RGB color space available till date, this point stands as
 a motive behind generating this huge dataset. This eventually paves path to further
 researchers who would continue their research in handwritten lowercase letter recognition systems in Swedish as well as English while promoting segmentation for OCR systems in historical document images.
+(a). This dataset is in contrast with the existing publicly available handwritten digit datasets (e.g. EMNIST (b)),
+![image info](./2.png)
