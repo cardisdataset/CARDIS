@@ -5,16 +5,16 @@ CArDIS dataset, the collection of Swedish historical documents were acquired fro
 than 88 million images created from Swedish Church, census, court records and
 other historical documents  and these documents were penned between 1800 to
 1900 by various anonymous priests in different counties. From which, 64,084
-sample Swedish historical handwritten character and word images were selected to
+sample Swedish historical handwritten character images were selected to
 create the dataset. Each sample of Swedish birth record handwritten document
 image has information about a newly born child’s name, born date, baptized date,
 born place, father’s name, and mother’s name.
 Using the above 64,084 samples of Swedish historical handwritten character document images, 101,500 characters have been cropped to generate CArDIS dataset were each character has 3500 samples. This dataset has multiple unique characteristics explained below:
 
 •	Degradation: The age of the documents, quality of the paper and ink used
-play an important role in degradation of the characters and words in CArDIS
+play an important role in degradation of the characters in CArDIS
 dataset. Since, the documents were penned in 19th century by various priests
-using ink pen on old brown papers, the words and letters in the dataset are
+using ink pen on old brown papers, the letters in the dataset are
 deteriorated and fainted. Additionally, there are multiple disturbances in the
 data like variation of the background, show-through, weak text stroke, merged
 characters and bleed-through.
