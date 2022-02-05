@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## CArDIS: A Swedish Historical Handwritten Character Dataset with 101,500 characters
 
-You can use the [editor on GitHub](https://github.com/cardisdataset/CARDIS/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CArDIS dataset, the collection of Swedish historical documents were acquired from Arkiv Digital Company’s document image dataset which has more
+than 88 million images created from Swedish Church, census, court records and
+other historical documents  and these documents were penned between 1800 to
+1900 by various anonymous priests in different counties. From which, 64,084
+sample Swedish historical handwritten character and word images were selected to
+create the dataset. Each sample of Swedish birth record handwritten document
+image has information about a newly born child’s name, born date, baptized date,
+born place, father’s name, and mother’s name.
+Using the above 64,084 samples of Swedish historical handwritten character document images, 101,500 characters have been cropped to generate CArDIS dataset were each character has 3500 samples. This dataset has multiple unique characteristics explained below:
+•	Degradation: The age of the documents, quality of the paper and ink used
+play an important role in degradation of the characters and words in CArDIS
+dataset. Since, the documents were penned in 19th century by various priests
+using ink pen on old brown papers, the words and letters in the dataset are
+deteriorated and fainted. Additionally, there are multiple disturbances in the
+data like variation of the background, show-through, weak text stroke, merged
+characters and bleed-through.
+•	Handwriting Styles: Every individual is different from another and unique
+in their own way same like every individual will possess his/her own handwriting
+style. Considering this fact, the handwriting style, the way of holding pen
+with different pressure, their choice of choosing materials like using ink dips
+and ball pens result in distinct writing styles, shapes, sizes, orientations and
+directions. Ultimately, leading to a endless inter-class variations and new font.
+•	Presence of Special characters: Since, the documents are written in
+Swedish language, there are special characters (å, ä, ö) other than standard Latin
+alphabets causing intra and inter class variations.
+However, the above characteristics become dominant over the existing handwritten
+datasets overcoming the restrictions over existing datasets. Thus, CArDIS
+dataset form a new type of dataset with new and unique characteristics.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cardisdataset/CARDIS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This collection of dataset consists of isolated handwritten Latin
+characters and special Swedish characters. Latin characters consists of alphabets a
+to z where as Swedish special characters consists of alphabets, å,ä,ö.Note that all
+the characters collected are lowercase letters only and also each and every character
+have been cropped manually from 64, 084 historical Swedish birth record handwritten
+document images. This particular dataset contains 29 classes in which 26 classes
+represent a to z and the other 3 classes represent å, ä, ö. Each class has 3500 images
+which in total will be 101,500 lowercase letter images(3500*29).Since, there is
+no historical handwritten Swedish lowercase letters dataset that provides more than
+1,00,000 image samples in RGB color space available till date, this point stands as
+a motive behind generating this huge dataset. This eventually paves path to further
+researchers who would continue their research in handwritten lowercase letter recognition systems in Swedish as well as English while promoting segmentation for OCR systems in historical document images.
