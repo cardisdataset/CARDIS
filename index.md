@@ -47,6 +47,8 @@ a motive behind generating this huge dataset. This eventually paves path to furt
 researchers who would continue their research in handwritten lowercase letter recognition systems in Swedish as well as English while promoting segmentation for OCR systems in historical document images.
 (a). This dataset is in contrast with the existing publicly available handwritten digit datasets (e.g. EMNIST (b))
 
+(a)
 ![image info](./2.png)
+(b)
 
-[Character dataset 101,500 link] (https://github.com/user/repo/blob/branch/other_file.md)
+[Character dataset 101,500 link] (https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP)
