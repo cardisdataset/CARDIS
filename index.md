@@ -51,4 +51,4 @@ researchers who would continue their research in handwritten lowercase letter re
 ![image info](./2.png)
 (b)
 
-[Character dataset 101,500 link] (https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP)
+[Character dataset 101,500](https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP)
