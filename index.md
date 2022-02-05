@@ -1,6 +1,6 @@
 ## CArDIS: A Swedish Historical Handwritten Character Dataset with 101,500 characters
 
-
+![image info](./1.jpg)
 CArDIS dataset, the collection of Swedish historical documents were acquired from Arkiv Digital Company’s document image dataset which has more
 than 88 million images created from Swedish Church, census, court records and
 other historical documents  and these documents were penned between 1800 to
