@@ -56,6 +56,7 @@ researchers who would continue their research in handwritten lowercase letter re
 **Reference:
 
 •	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, “CArDIS: A Swedish Historical Handwritten Character Dataset”, IEEE Access (under review).
+
 •	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, CArDIS: A Swedish Historical Handwritten Dataset with 101.500 Characters, February 2022. Accessed on: February 06, 2022. Available: https://cardisdataset.github.io/CARDIS/.
 
 **BibTeX:
@@ -66,6 +67,7 @@ author={Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shiv
 journal={IEEE Access},
 year={2022}
 }
+
 •	@misc{CARDIS2022,
 author = {Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall},
 title = {CArDIS: A Swedish Historical Handwritten Character Dataset with 101.500 Characters},
