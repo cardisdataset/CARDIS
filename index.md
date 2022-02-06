@@ -52,3 +52,23 @@ researchers who would continue their research in handwritten lowercase letter re
 (b)
 
 [Character dataset 101,500](https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP)
+
+**Reference:
+
+•	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, “CArDIS: A Swedish Historical Handwritten Character Dataset”, IEEE Access (under review).
+•	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, CArDIS: A Swedish Historical Handwritten Dataset with 101.500 Characters, February 2022. Accessed on: February 06, 2022. Available: https://cardisdataset.github.io/CARDIS/.
+
+**BibTeX:
+
+•	@article{CARDIS2022,
+title={CArDIS: A Swedish Historical Handwritten Character Dataset,
+author={Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall},
+journal={IEEE Access},
+year={2022}
+}
+•	@misc{CARDIS2022,
+author = {Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall},
+title = {CArDIS: A Swedish Historical Handwritten Character Dataset with 101.500 Characters},
+howpublished = {\url{https://cardisdataset.github.io/CARDIS/}},
+note = {Accessed: 2022-02-06}
+}
