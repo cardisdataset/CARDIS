@@ -1,4 +1,4 @@
-## CArDIS: A Swedish Historical Handwritten Character Dataset with 101,500 characters
+## CArDIS: A Swedish Historical Handwritten Character Dataset with 116,000 characters, 30,000 Swedish names, and 1000 region names
 
 ![image info](./1.jpg)
 CArDIS dataset, the collection of Swedish historical documents were acquired from Arkiv Digital Company’s document image dataset which has more
@@ -9,7 +9,7 @@ sample Swedish historical handwritten character images were selected to
 create the dataset. Each sample of Swedish birth record handwritten document
 image has information about a newly born child’s name, born date, baptized date,
 born place, father’s name, and mother’s name.
-Using the above 64,084 samples of Swedish historical handwritten character document images, 101,500 characters have been cropped to generate CArDIS dataset were each character has 3500 samples. This dataset has multiple unique characteristics explained below:
+Using the above 64,084 samples of Swedish historical handwritten character document images, 116,000 characters, 30,000 names and 1000 region names have been cropped to generate CArDIS dataset were each character has 4000 samples. This dataset has multiple unique characteristics explained below:
 
 •	Degradation: The age of the documents, quality of the paper and ink used
 play an important role in degradation of the characters in CArDIS
@@ -39,8 +39,8 @@ to z where as Swedish special characters consists of alphabets, å,ä,ö.Note th
 the characters collected are lowercase letters only and also each and every character
 have been cropped manually from 64, 084 historical Swedish birth record handwritten
 document images. This particular dataset contains 29 classes in which 26 classes
-represent a to z and the other 3 classes represent å, ä, ö. Each class has 3500 images
-which in total will be 101,500 lowercase letter images(3500*29).Since, there is
+represent a to z and the other 3 classes represent å, ä, ö. Each class has 4000 images
+which in total will be 116,000 lowercase letter images (4000*29). Since, there is
 no historical handwritten Swedish lowercase letters dataset that provides more than
 1,00,000 image samples in RGB color space available till date, this point stands as
 a motive behind generating this huge dataset. This eventually paves path to further
@@ -51,7 +51,9 @@ researchers who would continue their research in handwritten lowercase letter re
 ![image info](./2.png)
 (b)
 
-[Character dataset 101,500](https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP)
+[Character dataset 116,000](https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP)
+[Swedish name dataset] (will be available shortly)
+[Region names of Sweden] (will be available shortly)
 
 If you use any of these datasets, please cite:
 
@@ -59,12 +61,12 @@ If you use any of these datasets, please cite:
 
 •	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, “CArDIS: A Swedish Historical Handwritten Character Dataset”, IEEE Access (under review).
 
-•	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, CArDIS: A Swedish Historical Handwritten Dataset with 101.500 Characters, February 2022. Accessed on: February 06, 2022. Available: [Link](https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP).
+•	Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall, CArDIS: A Swedish Historical Handwritten Character Dataset with 116,000 characters, 30,000 Swedish names, and 1000 region names, March 2022. Accessed on: March 20, 2022. Available: [Link](https://drive.google.com/drive/folders/11hkBQ3ampwL3pXLoz8oQBwt8GoLba3DP).
 
 **BibTeX:**
 
 •	@article{CARDIS2022,
-title={CArDIS: A Swedish Historical Handwritten Character Dataset,
+title={CArDIS: A Swedish Historical Handwritten Character and Word Dataset,
 author={Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall},
 journal={IEEE Access},
 year={2022}
@@ -72,7 +74,7 @@ year={2022}
 
 •	@misc{CARDIS2022,
 author = {Amir Yavariabdi, Huseyin Kusetogullari, Turgay Celik, Sakib Rijwan, Shivani Thummanapally, Johan Hall},
-title = {CArDIS: A Swedish Historical Handwritten Character Dataset with 101.500 Characters},
+title = {CArDIS: A Swedish Historical Handwritten Character Dataset with 116,000 characters, 30,000 Swedish names, and 1000 region names},
 howpublished = {\url{https://cardisdataset.github.io/CARDIS/}},
-note = {Accessed: 2022-02-06}
+note = {Accessed: 2022-03-20}
 }
